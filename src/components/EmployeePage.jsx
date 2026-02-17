@@ -20,9 +20,7 @@ function EmployeePage() {
     return (
         <div className="employee-details-container">
             <div className="employee-header">
-                <div className="back-arrow">
-                    <p>&lt;</p>
-                </div>
+                <p className="back-arrow">&lt;</p>
                 <Header title="Employee" />
             </div>
             
