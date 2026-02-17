@@ -1,6 +1,6 @@
 import './App.css'
-import EmployeePage from './EmployeePage'
-import HomePage from './Homepage'
+import EmployeePage from './components/EmployeePage'
+import HomePage from './components/Homepage'
 
 function App() {
 

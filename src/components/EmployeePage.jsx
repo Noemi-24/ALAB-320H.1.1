@@ -1,5 +1,5 @@
-import Header from "../Header";
-import './EmployeePage.css'
+import Header from'./Header';
+import './EmployeePage.css';
 
 function EmployeePage() {
     const employeeDetails = [
@@ -19,7 +19,13 @@ function EmployeePage() {
 
     return (
         <div className="employee-details-container">
-            <Header title="Employee" />
+            <div className="employee-header">
+                <div className="back-arrow">
+                    <p>&lt;</p>
+                </div>
+                <Header title="Employee" />
+            </div>
+            
             <div className="employee-card">
                 <div className='employee-pic-container'>
                     <img
