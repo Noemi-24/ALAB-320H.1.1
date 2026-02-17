@@ -1,3 +1,5 @@
+import './SearchBar.css'
+
 function SearchBar() {
     return (
         <form className="search-bar-form">
