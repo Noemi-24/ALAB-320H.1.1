@@ -1,0 +1,10 @@
+.title{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.title::before {
+  content: '\003C'; /* The Unicode for '<' */
+  margin-right: 5px;
+}

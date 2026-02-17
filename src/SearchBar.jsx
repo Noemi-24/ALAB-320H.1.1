@@ -1,0 +1,14 @@
+function SearchBar() {
+    return (
+        <form className="search-bar-form">
+            <input
+                type="text"
+                placeholder="Search..."
+                className="search-input"
+            />
+            <button type="submit" className="search-button">Search</button>
+        </form>
+    );
+}
+
+export default SearchBar;
