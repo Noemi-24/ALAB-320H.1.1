@@ -19,11 +19,8 @@ function EmployeePage() {
 
     return (
         <div className="employee-details-container">
-            <div className="employee-header">
-                <p className="back-arrow">&lt;</p>
-                <Header title="Employee" />
-            </div>
-            
+            <Header title="Employee" />
+                       
             <div className="employee-card">
                 <div className='employee-pic-container'>
                     <img
